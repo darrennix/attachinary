@@ -9,6 +9,7 @@ gemspec
 gem 'jquery-rails'
 gem 'cloudinary'
 gem 'simple_form', '~> 2.0.0'
+gem 'protected_attributes'
 
 group :assets do
   gem 'coffee-rails', '~> 3.2.1'
