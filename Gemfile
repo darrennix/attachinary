@@ -8,15 +8,15 @@ gemspec
 # used by the dummy application
 gem 'jquery-rails'
 gem 'cloudinary'
-gem 'simple_form', '~> 2.0.0'
+gem 'simple_form'
 gem 'protected_attributes'
 
 group :assets do
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'coffee-rails'
 end
 
 group :mongoid do
-  gem 'mongoid', '~> 3.0.0'
+  gem 'mongoid'
 end
 
 
